@@ -1,1 +1,0 @@
-/home/racecar/racecar_ws/src/ros_exercises/setup.py
