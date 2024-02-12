@@ -1,0 +1,33 @@
+[1.256s] Invoking command in '/home/racecar/racecar_ws/src/ros_exercises': PYTHONPATH=/home/racecar/racecar_ws/src/ros_exercises/build/ros_exercises/prefix_override:/home/racecar/racecar_ws/src/ros_exercises/install/ros_exercises/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/ros_exercises build --build-base /home/racecar/racecar_ws/src/ros_exercises/build/ros_exercises/build install --record /home/racecar/racecar_ws/src/ros_exercises/build/ros_exercises/install.log --install-scripts $base/lib/ros_exercises --single-version-externally-managed
+[1.483s] running egg_info
+[1.484s] creating build/ros_exercises/ros_exercises.egg-info
+[1.485s] writing build/ros_exercises/ros_exercises.egg-info/PKG-INFO
+[1.486s] writing dependency_links to build/ros_exercises/ros_exercises.egg-info/dependency_links.txt
+[1.488s] writing entry points to build/ros_exercises/ros_exercises.egg-info/entry_points.txt
+[1.489s] writing requirements to build/ros_exercises/ros_exercises.egg-info/requires.txt
+[1.490s] writing top-level names to build/ros_exercises/ros_exercises.egg-info/top_level.txt
+[1.497s] writing manifest file 'build/ros_exercises/ros_exercises.egg-info/SOURCES.txt'
+[1.545s] reading manifest file 'build/ros_exercises/ros_exercises.egg-info/SOURCES.txt'
+[1.548s] writing manifest file 'build/ros_exercises/ros_exercises.egg-info/SOURCES.txt'
+[1.549s] running build
+[1.550s] running build_py
+[1.552s] creating /home/racecar/racecar_ws/src/ros_exercises/build/ros_exercises/build
+[1.553s] creating /home/racecar/racecar_ws/src/ros_exercises/build/ros_exercises/build/lib
+[1.554s] creating /home/racecar/racecar_ws/src/ros_exercises/build/ros_exercises/build/lib/ros_exercises
+[1.555s] copying ros_exercises/__init__.py -> /home/racecar/racecar_ws/src/ros_exercises/build/ros_exercises/build/lib/ros_exercises
+[1.556s] running install
+[1.557s] running install_lib
+[1.559s] creating /home/racecar/racecar_ws/src/ros_exercises/install/ros_exercises/lib/python3.8/site-packages/ros_exercises
+[1.560s] copying /home/racecar/racecar_ws/src/ros_exercises/build/ros_exercises/build/lib/ros_exercises/__init__.py -> /home/racecar/racecar_ws/src/ros_exercises/install/ros_exercises/lib/python3.8/site-packages/ros_exercises
+[1.563s] byte-compiling /home/racecar/racecar_ws/src/ros_exercises/install/ros_exercises/lib/python3.8/site-packages/ros_exercises/__init__.py to __init__.cpython-38.pyc
+[1.568s] running install_data
+[1.570s] creating /home/racecar/racecar_ws/src/ros_exercises/install/ros_exercises/share/ament_index
+[1.572s] creating /home/racecar/racecar_ws/src/ros_exercises/install/ros_exercises/share/ament_index/resource_index
+[1.574s] creating /home/racecar/racecar_ws/src/ros_exercises/install/ros_exercises/share/ament_index/resource_index/packages
+[1.575s] copying resource/ros_exercises -> /home/racecar/racecar_ws/src/ros_exercises/install/ros_exercises/share/ament_index/resource_index/packages
+[1.577s] copying package.xml -> /home/racecar/racecar_ws/src/ros_exercises/install/ros_exercises/share/ros_exercises
+[1.578s] running install_egg_info
+[1.583s] Copying build/ros_exercises/ros_exercises.egg-info to /home/racecar/racecar_ws/src/ros_exercises/install/ros_exercises/lib/python3.8/site-packages/ros_exercises-0.0.0-py3.8.egg-info
+[1.615s] running install_scripts
+[1.655s] writing list of installed files to '/home/racecar/racecar_ws/src/ros_exercises/build/ros_exercises/install.log'
+[1.683s] Invoked command in '/home/racecar/racecar_ws/src/ros_exercises' returned '0': PYTHONPATH=/home/racecar/racecar_ws/src/ros_exercises/build/ros_exercises/prefix_override:/home/racecar/racecar_ws/src/ros_exercises/install/ros_exercises/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/ros_exercises build --build-base /home/racecar/racecar_ws/src/ros_exercises/build/ros_exercises/build install --record /home/racecar/racecar_ws/src/ros_exercises/build/ros_exercises/install.log --install-scripts $base/lib/ros_exercises --single-version-externally-managed
