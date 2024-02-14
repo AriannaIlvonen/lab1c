@@ -5,13 +5,13 @@ import random
 from rclpy.node import Node 
 from std_msgs.msg import Float32
 
-class MinimalPublisher(Node):
+class SimplePublisher(Node):
     
     def __init__(self):
         super().__init__('simple_publisher')
         self.publisher_ = self.create_publisher(Float32, 'my_random_float', 10)
         timer_period = 0.00005 #seconds
-        self.timer = self.create_time(timer_period, self.timer_callback)
+        self.timer = self.create_timer(timer_period, self.timer_callback)
         self.i = 0
 
     def timer_callback(self):
