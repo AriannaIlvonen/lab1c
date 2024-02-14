@@ -1,4 +1,5 @@
 [console_scripts]
+fake_scan_publisher = ros_exercises.fake_scan_publisher:main
 simple_publisher = ros_exercises.simple_publisher:main
 simple_subscriber = ros_exercises.simple_subscriber:main
 
