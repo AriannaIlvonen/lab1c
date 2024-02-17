@@ -12,18 +12,20 @@ class openSpacePublisher(Node):
         super().__init__('simple_subscriber')
         self.distance = 1.0
         self.angle = 1.0
+        self.declare_parameter('subscriber_topic', 'fake_scan') 
+        self.declare_parameter('publish_topic', 'open_space_publisher')
         self.subscription = self.create_subscription(
             LaserScan,
-            'fake_scan',
+            self.get_parameter("subscriber_topic").value,
             self.listener_callback,
             10)
         self.subscription  # prevent unused variable warning
 
-
         #self.publisher1 = self.create_publisher(Float32, 'open_space/distance',10)
         #self.publisher2 = self.create_publisher(Float32, 'open_space/angle',10)
-        self.publisher = self.create_publisher(OpenSpace, 'open_space_publisher',10)
-        timer_period = 0.00005 #seconds
+
+        self.publisher = self.create_publisher(OpenSpace, self.get_parameter('publish_topic').value, 10)
+        timer_period = 0.05 #seconds
         self.timer = self.create_timer(timer_period, self.timer_callback)
         self.i = 0
 
