@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from open_space_msg/msg/OpenSpace.msg
+// generated code does not contain a copyright notice
+
+
+module open_space_msg {
+  module msg {
+    struct OpenSpace {
+      float angle;
+
+      float distance;
+    };
+  };
+};

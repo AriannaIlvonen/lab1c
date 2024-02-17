@@ -1,0 +1,4 @@
+source;share/open_space_msg/local_setup.bash
+source;share/open_space_msg/local_setup.dsv
+source;share/open_space_msg/local_setup.sh
+source;share/open_space_msg/local_setup.zsh
