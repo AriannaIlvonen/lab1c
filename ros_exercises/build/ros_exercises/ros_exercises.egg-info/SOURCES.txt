@@ -11,6 +11,7 @@ build/ros_exercises/ros_exercises.egg-info/top_level.txt
 build/ros_exercises/ros_exercises.egg-info/zip-safe
 resource/ros_exercises
 ros_exercises/__init__.py
+ros_exercises/dynamic_tf_cam_publisher.py
 ros_exercises/fake_scan_publisher.py
 ros_exercises/open_space_publisher.py
 ros_exercises/simple_publisher.py

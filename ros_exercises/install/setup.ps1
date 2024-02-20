@@ -25,6 +25,7 @@ function _colcon_prefix_chain_powershell_source_script {
 _colcon_prefix_chain_powershell_source_script "/opt/ros/foxy\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/racecar/racecar_ws/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/sim_ws/install\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/home/racecar/racecar_ws/src/lab1c/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/racecar/racecar_ws/src/install\local_setup.ps1"
 
 # source this prefix
