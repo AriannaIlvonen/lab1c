@@ -30,7 +30,7 @@ class BaseLinkPublisher(Node):
         #Get the current transform of the robot w.r.t. world. Use the TF tree!
         #self.get_logger().info('hello?')
         try:
-            leftcam_tf = self.tfBuffer.lookup_transform('left_cam', 'world', rclpy.time.Time())
+            leftcam_tf = self.tfBuffer.lookup_transform('world', 'left_cam', rclpy.time.Time())
             #leftcam_tf = self.tfBuffer.lookup_transform('base_link_gt', 'world', self.get_clock().now())
         except tf2_ros.TransformException:
             #self.get_logger().info('no transform from world to left_cam found')
