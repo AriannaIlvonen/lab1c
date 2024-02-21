@@ -1,0 +1,30 @@
+[2.852s] Invoking command in '/home/racecar/racecar_ws/src/lab1c/ros_exercises': PYTHONPATH=/home/racecar/racecar_ws/src/lab1c/build/ros_exercises/prefix_override:/home/racecar/racecar_ws/src/lab1c/install/ros_exercises/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros_exercises build --build-base /home/racecar/racecar_ws/src/lab1c/build/ros_exercises/build install --record /home/racecar/racecar_ws/src/lab1c/build/ros_exercises/install.log --install-scripts $base/lib/ros_exercises --single-version-externally-managed
+[3.309s] running egg_info
+[3.311s] writing ../build/ros_exercises/ros_exercises.egg-info/PKG-INFO
+[3.314s] writing dependency_links to ../build/ros_exercises/ros_exercises.egg-info/dependency_links.txt
+[3.318s] writing entry points to ../build/ros_exercises/ros_exercises.egg-info/entry_points.txt
+[3.321s] writing requirements to ../build/ros_exercises/ros_exercises.egg-info/requires.txt
+[3.325s] writing top-level names to ../build/ros_exercises/ros_exercises.egg-info/top_level.txt
+[3.479s] reading manifest file '../build/ros_exercises/ros_exercises.egg-info/SOURCES.txt'
+[3.489s] writing manifest file '../build/ros_exercises/ros_exercises.egg-info/SOURCES.txt'
+[3.500s] running build
+[3.504s] running build_py
+[3.517s] copying ros_exercises/base_link_tf_pub.py -> /home/racecar/racecar_ws/src/lab1c/build/ros_exercises/build/lib/ros_exercises
+[3.543s] running install
+[3.556s] running install_lib
+[3.569s] copying /home/racecar/racecar_ws/src/lab1c/build/ros_exercises/build/lib/ros_exercises/base_link_tf_pub.py -> /home/racecar/racecar_ws/src/lab1c/install/ros_exercises/lib/python3.8/site-packages/ros_exercises
+[3.584s] byte-compiling /home/racecar/racecar_ws/src/lab1c/install/ros_exercises/lib/python3.8/site-packages/ros_exercises/base_link_tf_pub.py to base_link_tf_pub.cpython-38.pyc
+[3.598s] running install_data
+[3.606s] running install_egg_info
+[3.616s] removing '/home/racecar/racecar_ws/src/lab1c/install/ros_exercises/lib/python3.8/site-packages/ros_exercises-0.0.0-py3.8.egg-info' (and everything under it)
+[3.620s] Copying ../build/ros_exercises/ros_exercises.egg-info to /home/racecar/racecar_ws/src/lab1c/install/ros_exercises/lib/python3.8/site-packages/ros_exercises-0.0.0-py3.8.egg-info
+[3.623s] running install_scripts
+[3.630s] Installing base_link_tf_pub script to /home/racecar/racecar_ws/src/lab1c/install/ros_exercises/lib/ros_exercises
+[3.633s] Installing dynamic_tf_cam_publisher script to /home/racecar/racecar_ws/src/lab1c/install/ros_exercises/lib/ros_exercises
+[3.636s] Installing fake_scan_publisher script to /home/racecar/racecar_ws/src/lab1c/install/ros_exercises/lib/ros_exercises
+[3.639s] Installing open_space_publisher script to /home/racecar/racecar_ws/src/lab1c/install/ros_exercises/lib/ros_exercises
+[3.644s] Installing simple_publisher script to /home/racecar/racecar_ws/src/lab1c/install/ros_exercises/lib/ros_exercises
+[3.648s] Installing simple_subscriber script to /home/racecar/racecar_ws/src/lab1c/install/ros_exercises/lib/ros_exercises
+[3.653s] Installing static_tf_cam_publisher script to /home/racecar/racecar_ws/src/lab1c/install/ros_exercises/lib/ros_exercises
+[3.659s] writing list of installed files to '/home/racecar/racecar_ws/src/lab1c/build/ros_exercises/install.log'
+[4.065s] Invoked command in '/home/racecar/racecar_ws/src/lab1c/ros_exercises' returned '0': PYTHONPATH=/home/racecar/racecar_ws/src/lab1c/build/ros_exercises/prefix_override:/home/racecar/racecar_ws/src/lab1c/install/ros_exercises/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros_exercises build --build-base /home/racecar/racecar_ws/src/lab1c/build/ros_exercises/build install --record /home/racecar/racecar_ws/src/lab1c/build/ros_exercises/install.log --install-scripts $base/lib/ros_exercises --single-version-externally-managed

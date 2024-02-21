@@ -1,0 +1,194 @@
+[0.000000] (-) TimerEvent: {}
+[0.000617] (open_space_msg) JobQueued: {'identifier': 'open_space_msg', 'dependencies': OrderedDict()}
+[0.001120] (ros_exercises) JobQueued: {'identifier': 'ros_exercises', 'dependencies': OrderedDict()}
+[0.001647] (open_space_msg) JobStarted: {'identifier': 'open_space_msg'}
+[0.101251] (-) TimerEvent: {}
+[0.203578] (-) TimerEvent: {}
+[0.305699] (-) TimerEvent: {}
+[0.407532] (-) TimerEvent: {}
+[0.449237] (ros_exercises) JobStarted: {'identifier': 'ros_exercises'}
+[0.508293] (-) TimerEvent: {}
+[0.609339] (-) TimerEvent: {}
+[0.710829] (-) TimerEvent: {}
+[0.813425] (-) TimerEvent: {}
+[0.908781] (open_space_msg) JobProgress: {'identifier': 'open_space_msg', 'progress': 'cmake'}
+[0.912738] (open_space_msg) JobProgress: {'identifier': 'open_space_msg', 'progress': 'build'}
+[0.913993] (open_space_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/racecar/racecar_ws/src/lab1c/build/open_space_msg', '--', '-j8', '-l8'], 'cwd': '/home/racecar/racecar_ws/src/lab1c/build/open_space_msg', 'env': OrderedDict([('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', '4a8c1757ee4a'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/racecar/racecar_ws/src/lab1c/install/open_space_msg/lib:/home/racecar/racecar_ws/src/install/open_space_msg/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/racecar'), ('OLDPWD', '/home/racecar/racecar_ws/src/lab1c/ros_exercises'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/racecar/racecar_ws/src/lab1c/ros_exercises/install:/home/racecar/racecar_ws/src/lab1c/install:/home/racecar/racecar_ws/src/install:/home/sim_ws/install:/home/racecar/racecar_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/racecar/racecar_ws/src/lab1c/install/ros_exercises:/home/racecar/racecar_ws/src/lab1c/install/open_space_msg:/home/racecar/racecar_ws/src/lab1c/ros_exercises/install/ros_exercises:/home/racecar/racecar_ws/src/install/ros_exercises:/home/racecar/racecar_ws/src/install/open_space_msg:/home/sim_ws/install/racecar_simulator:/home/racecar/racecar_ws/install/ros_exercises:/opt/ros/foxy'), ('SIM_WS', '/home/sim_ws'), ('PWD', '/home/racecar/racecar_ws/src/lab1c/build/open_space_msg'), ('PYTHONPATH', '/home/racecar/racecar_ws/src/lab1c/install/ros_exercises/lib/python3.8/site-packages:/home/racecar/racecar_ws/src/lab1c/install/open_space_msg/lib/python3.8/site-packages:/home/racecar/racecar_ws/src/lab1c/ros_exercises/install/ros_exercises/lib/python3.8/site-packages:/home/racecar/racecar_ws/src/install/ros_exercises/lib/python3.8/site-packages:/home/racecar/racecar_ws/src/install/open_space_msg/lib/python3.8/site-packages:/home/racecar/racecar_ws/install/ros_exercises/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('NO_VNC_VERSION', '1.4.0'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/racecar/racecar_ws/src/lab1c/install/open_space_msg:/home/racecar/racecar_ws/src/install/open_space_msg:/home/sim_ws/install/racecar_simulator:/home/racecar/racecar_ws/src/lab1c/install/ros_exercises:/home/racecar/racecar_ws/src/lab1c/ros_exercises/install/ros_exercises:/home/racecar/racecar_ws/src/install/ros_exercises:/home/racecar/racecar_ws/install/ros_exercises:/opt/ros/foxy')]), 'shell': False}
+[0.929850] (-) TimerEvent: {}
+[1.031294] (-) TimerEvent: {}
+[1.132277] (-) TimerEvent: {}
+[1.182652] (open_space_msg) StdoutLine: {'line': b'[  9%] Built target open_space_msg__cpp\n'}
+[1.185411] (open_space_msg) StdoutLine: {'line': b'[ 12%] Built target open_space_msg__rosidl_generator_c\n'}
+[1.233437] (-) TimerEvent: {}
+[1.334322] (-) TimerEvent: {}
+[1.408192] (open_space_msg) StdoutLine: {'line': b'[ 32%] Built target open_space_msg__rosidl_typesupport_cpp\n'}
+[1.409882] (open_space_msg) StdoutLine: {'line': b'[ 32%] Built target open_space_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[1.435689] (-) TimerEvent: {}
+[1.489390] (open_space_msg) StdoutLine: {'line': b'[ 58%] Built target open_space_msg__rosidl_typesupport_c\n'}
+[1.496084] (open_space_msg) StdoutLine: {'line': b'[ 61%] Built target open_space_msg__rosidl_typesupport_introspection_cpp\n'}
+[1.498125] (open_space_msg) StdoutLine: {'line': b'[ 61%] Built target open_space_msg__rosidl_typesupport_introspection_c\n'}
+[1.536344] (-) TimerEvent: {}
+[1.587386] (open_space_msg) StdoutLine: {'line': b'[ 70%] Built target open_space_msg__rosidl_typesupport_fastrtps_c\n'}
+[1.638242] (-) TimerEvent: {}
+[1.689969] (open_space_msg) StdoutLine: {'line': b'[ 70%] Built target open_space_msg\n'}
+[1.739612] (-) TimerEvent: {}
+[1.771023] (open_space_msg) StdoutLine: {'line': b'[ 74%] Built target open_space_msg__py\n'}
+[1.840337] (-) TimerEvent: {}
+[1.892788] (open_space_msg) StdoutLine: {'line': b'[ 80%] Built target open_space_msg__python\n'}
+[1.941380] (-) TimerEvent: {}
+[2.043301] (-) TimerEvent: {}
+[2.064079] (open_space_msg) StdoutLine: {'line': b'[ 90%] Built target open_space_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[2.067113] (open_space_msg) StdoutLine: {'line': b'[100%] Built target open_space_msg__rosidl_typesupport_c__pyext\n'}
+[2.068847] (open_space_msg) StdoutLine: {'line': b'[100%] Built target open_space_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.127561] (open_space_msg) CommandEnded: {'returncode': 0}
+[2.144310] (-) TimerEvent: {}
+[2.245268] (-) TimerEvent: {}
+[2.346271] (-) TimerEvent: {}
+[2.395449] (ros_exercises) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/ros_exercises', 'build', '--build-base', '/home/racecar/racecar_ws/src/lab1c/build/ros_exercises/build', 'install', '--record', '/home/racecar/racecar_ws/src/lab1c/build/ros_exercises/install.log', '--install-scripts', '$base/lib/ros_exercises', '--single-version-externally-managed'], 'cwd': '/home/racecar/racecar_ws/src/lab1c/ros_exercises', 'env': {'PYTHONIOENCODING': 'utf-8', 'HOSTNAME': '4a8c1757ee4a', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/racecar/racecar_ws/src/lab1c/install/open_space_msg/lib:/home/racecar/racecar_ws/src/install/open_space_msg/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/racecar', 'OLDPWD': '/home/racecar/racecar_ws/src/lab1c/ros_exercises', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/racecar/racecar_ws/src/lab1c/ros_exercises/install:/home/racecar/racecar_ws/src/lab1c/install:/home/racecar/racecar_ws/src/install:/home/sim_ws/install:/home/racecar/racecar_ws/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'en_US.UTF-8', 'AMENT_PREFIX_PATH': '/home/racecar/racecar_ws/src/lab1c/install/ros_exercises:/home/racecar/racecar_ws/src/lab1c/install/open_space_msg:/home/racecar/racecar_ws/src/lab1c/ros_exercises/install/ros_exercises:/home/racecar/racecar_ws/src/install/ros_exercises:/home/racecar/racecar_ws/src/install/open_space_msg:/home/sim_ws/install/racecar_simulator:/home/racecar/racecar_ws/install/ros_exercises:/opt/ros/foxy', 'SIM_WS': '/home/sim_ws', 'PWD': '/home/racecar/racecar_ws/src/lab1c/build/ros_exercises', 'PYTHONPATH': '/home/racecar/racecar_ws/src/lab1c/build/ros_exercises/prefix_override:/home/racecar/racecar_ws/src/lab1c/install/ros_exercises/lib/python3.8/site-packages:/home/racecar/racecar_ws/src/lab1c/install/ros_exercises/lib/python3.8/site-packages:/home/racecar/racecar_ws/src/lab1c/install/open_space_msg/lib/python3.8/site-packages:/home/racecar/racecar_ws/src/lab1c/ros_exercises/install/ros_exercises/lib/python3.8/site-packages:/home/racecar/racecar_ws/src/install/ros_exercises/lib/python3.8/site-packages:/home/racecar/racecar_ws/src/install/open_space_msg/lib/python3.8/site-packages:/home/racecar/racecar_ws/install/ros_exercises/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'NO_VNC_VERSION': '1.4.0', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/racecar/racecar_ws/src/lab1c/install/open_space_msg:/home/racecar/racecar_ws/src/install/open_space_msg:/home/sim_ws/install/racecar_simulator'}, 'shell': False}
+[2.447382] (-) TimerEvent: {}
+[2.451515] (open_space_msg) JobProgress: {'identifier': 'open_space_msg', 'progress': 'install'}
+[2.487883] (open_space_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/racecar/racecar_ws/src/lab1c/build/open_space_msg'], 'cwd': '/home/racecar/racecar_ws/src/lab1c/build/open_space_msg', 'env': OrderedDict([('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', '4a8c1757ee4a'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/racecar/racecar_ws/src/lab1c/install/open_space_msg/lib:/home/racecar/racecar_ws/src/install/open_space_msg/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/racecar'), ('OLDPWD', '/home/racecar/racecar_ws/src/lab1c/ros_exercises'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/racecar/racecar_ws/src/lab1c/ros_exercises/install:/home/racecar/racecar_ws/src/lab1c/install:/home/racecar/racecar_ws/src/install:/home/sim_ws/install:/home/racecar/racecar_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/racecar/racecar_ws/src/lab1c/install/ros_exercises:/home/racecar/racecar_ws/src/lab1c/install/open_space_msg:/home/racecar/racecar_ws/src/lab1c/ros_exercises/install/ros_exercises:/home/racecar/racecar_ws/src/install/ros_exercises:/home/racecar/racecar_ws/src/install/open_space_msg:/home/sim_ws/install/racecar_simulator:/home/racecar/racecar_ws/install/ros_exercises:/opt/ros/foxy'), ('SIM_WS', '/home/sim_ws'), ('PWD', '/home/racecar/racecar_ws/src/lab1c/build/open_space_msg'), ('PYTHONPATH', '/home/racecar/racecar_ws/src/lab1c/install/ros_exercises/lib/python3.8/site-packages:/home/racecar/racecar_ws/src/lab1c/install/open_space_msg/lib/python3.8/site-packages:/home/racecar/racecar_ws/src/lab1c/ros_exercises/install/ros_exercises/lib/python3.8/site-packages:/home/racecar/racecar_ws/src/install/ros_exercises/lib/python3.8/site-packages:/home/racecar/racecar_ws/src/install/open_space_msg/lib/python3.8/site-packages:/home/racecar/racecar_ws/install/ros_exercises/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('NO_VNC_VERSION', '1.4.0'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/racecar/racecar_ws/src/lab1c/install/open_space_msg:/home/racecar/racecar_ws/src/install/open_space_msg:/home/sim_ws/install/racecar_simulator:/home/racecar/racecar_ws/src/lab1c/install/ros_exercises:/home/racecar/racecar_ws/src/lab1c/ros_exercises/install/ros_exercises:/home/racecar/racecar_ws/src/install/ros_exercises:/home/racecar/racecar_ws/install/ros_exercises:/opt/ros/foxy')]), 'shell': False}
+[2.516913] (open_space_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.520726] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/ament_index/resource_index/rosidl_interfaces/open_space_msg\n'}
+[2.522638] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg\n'}
+[2.524291] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg/msg\n'}
+[2.525696] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg/msg/open_space.h\n'}
+[2.526813] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.528058] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg/msg/detail\n'}
+[2.529423] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg/msg/detail/open_space__type_support.h\n'}
+[2.530667] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg/msg/detail/open_space__functions.h\n'}
+[2.532523] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg/msg/detail/open_space__struct.h\n'}
+[2.534318] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg/msg/detail/open_space__functions.c\n'}
+[2.536583] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/open_space_msg/environment/library_path.sh\n'}
+[2.538023] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/open_space_msg/environment/library_path.dsv\n'}
+[2.539721] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/lib/libopen_space_msg__rosidl_generator_c.so\n'}
+[2.541276] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg\n'}
+[2.543538] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg/msg\n'}
+[2.545545] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg/msg/detail\n'}
+[2.547417] (-) TimerEvent: {}
+[2.547977] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg/msg/detail/open_space__rosidl_typesupport_fastrtps_c.h\n'}
+[2.550346] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.553489] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/lib/libopen_space_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[2.556371] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg\n'}
+[2.558754] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg/msg\n'}
+[2.560655] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.562257] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg/msg/detail\n'}
+[2.564234] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg/msg/detail/open_space__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.565694] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg/msg/detail/dds_fastrtps\n'}
+[2.567082] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/lib/libopen_space_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.568625] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg\n'}
+[2.570712] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg/msg\n'}
+[2.572229] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg/msg/detail\n'}
+[2.574144] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg/msg/detail/open_space__rosidl_typesupport_introspection_c.h\n'}
+[2.575646] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg/msg/detail/open_space__type_support.c\n'}
+[2.577261] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.578858] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/lib/libopen_space_msg__rosidl_typesupport_introspection_c.so\n'}
+[2.582007] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/lib/libopen_space_msg__rosidl_typesupport_c.so\n'}
+[2.584544] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg\n'}
+[2.587129] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg/msg\n'}
+[2.588976] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg/msg/detail\n'}
+[2.590614] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg/msg/detail/open_space__traits.hpp\n'}
+[2.592315] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg/msg/detail/open_space__struct.hpp\n'}
+[2.594484] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg/msg/detail/open_space__builder.hpp\n'}
+[2.596165] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg/msg/detail/open_space__type_support.hpp\n'}
+[2.597788] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[2.599491] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg/msg/open_space.hpp\n'}
+[2.601171] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg\n'}
+[2.603129] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg/msg\n'}
+[2.604925] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg/msg/detail\n'}
+[2.606800] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg/msg/detail/open_space__type_support.cpp\n'}
+[2.608646] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/include/open_space_msg/msg/detail/open_space__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.610287] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/lib/libopen_space_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[2.611989] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/lib/libopen_space_msg__rosidl_typesupport_cpp.so\n'}
+[2.615992] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/open_space_msg/environment/pythonpath.sh\n'}
+[2.617490] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/open_space_msg/environment/pythonpath.dsv\n'}
+[2.619408] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/lib/python3.8/site-packages/open_space_msg/__init__.py\n'}
+[2.648977] (-) TimerEvent: {}
+[2.706736] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/lib/python3.8/site-packages/open_space_msg/msg\n'}
+[2.708795] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/lib/python3.8/site-packages/open_space_msg/msg/_open_space.py\n'}
+[2.710259] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/lib/python3.8/site-packages/open_space_msg/msg/__init__.py\n'}
+[2.712560] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/lib/python3.8/site-packages/open_space_msg/msg/_open_space_s.c\n'}
+[2.714451] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/lib/python3.8/site-packages/open_space_msg/open_space_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[2.717772] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/lib/python3.8/site-packages/open_space_msg/open_space_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[2.721541] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/lib/python3.8/site-packages/open_space_msg/open_space_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[2.725522] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/lib/libopen_space_msg__python.so\n'}
+[2.728322] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/open_space_msg/msg/OpenSpace.idl\n'}
+[2.729909] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/open_space_msg/msg/OpenSpace.msg\n'}
+[2.731938] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/ament_index/resource_index/package_run_dependencies/open_space_msg\n'}
+[2.734531] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/ament_index/resource_index/parent_prefix_path/open_space_msg\n'}
+[2.736417] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/open_space_msg/environment/ament_prefix_path.sh\n'}
+[2.738067] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/open_space_msg/environment/ament_prefix_path.dsv\n'}
+[2.739843] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/open_space_msg/environment/path.sh\n'}
+[2.742339] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/open_space_msg/environment/path.dsv\n'}
+[2.744171] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/open_space_msg/local_setup.bash\n'}
+[2.745809] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/open_space_msg/local_setup.sh\n'}
+[2.747999] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/open_space_msg/local_setup.zsh\n'}
+[2.750067] (-) TimerEvent: {}
+[2.750808] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/open_space_msg/local_setup.dsv\n'}
+[2.752931] (open_space_msg) StdoutLine: {'line': b'-- Installing: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/open_space_msg/package.dsv\n'}
+[2.756858] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/ament_index/resource_index/packages/open_space_msg\n'}
+[2.761018] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/open_space_msg/cmake/open_space_msg__rosidl_generator_cExport.cmake\n'}
+[2.762873] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/open_space_msg/cmake/open_space_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.765186] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/open_space_msg/cmake/open_space_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.767229] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/open_space_msg/cmake/open_space_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.769915] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/open_space_msg/cmake/open_space_msg__rosidl_typesupport_cExport.cmake\n'}
+[2.772033] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/open_space_msg/cmake/open_space_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.775394] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/open_space_msg/cmake/open_space_msg__rosidl_generator_cppExport.cmake\n'}
+[2.779409] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/open_space_msg/cmake/open_space_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.781035] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/open_space_msg/cmake/open_space_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.783967] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/open_space_msg/cmake/open_space_msg__rosidl_typesupport_cppExport.cmake\n'}
+[2.785741] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/open_space_msg/cmake/open_space_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.787701] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/open_space_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[2.790544] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/open_space_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.792750] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/open_space_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.794669] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/open_space_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.796551] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/open_space_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.798212] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/open_space_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.800137] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/open_space_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.802806] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/open_space_msg/cmake/open_space_msgConfig.cmake\n'}
+[2.804528] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/open_space_msg/cmake/open_space_msgConfig-version.cmake\n'}
+[2.806801] (open_space_msg) StdoutLine: {'line': b'-- Up-to-date: /home/racecar/racecar_ws/src/lab1c/install/open_space_msg/share/open_space_msg/package.xml\n'}
+[2.810586] (open_space_msg) CommandEnded: {'returncode': 0}
+[2.815050] (ros_exercises) StdoutLine: {'line': b'running egg_info\n'}
+[2.817375] (ros_exercises) StdoutLine: {'line': b'writing ../build/ros_exercises/ros_exercises.egg-info/PKG-INFO\n'}
+[2.819246] (ros_exercises) StdoutLine: {'line': b'writing dependency_links to ../build/ros_exercises/ros_exercises.egg-info/dependency_links.txt\n'}
+[2.821464] (ros_exercises) StdoutLine: {'line': b'writing entry points to ../build/ros_exercises/ros_exercises.egg-info/entry_points.txt\n'}
+[2.823515] (ros_exercises) StdoutLine: {'line': b'writing requirements to ../build/ros_exercises/ros_exercises.egg-info/requires.txt\n'}
+[2.825644] (ros_exercises) StdoutLine: {'line': b'writing top-level names to ../build/ros_exercises/ros_exercises.egg-info/top_level.txt\n'}
+[2.851915] (-) TimerEvent: {}
+[2.906716] (ros_exercises) StdoutLine: {'line': b"reading manifest file '../build/ros_exercises/ros_exercises.egg-info/SOURCES.txt'\n"}
+[2.910010] (ros_exercises) StdoutLine: {'line': b"writing manifest file '../build/ros_exercises/ros_exercises.egg-info/SOURCES.txt'\n"}
+[2.911478] (ros_exercises) StdoutLine: {'line': b'running build\n'}
+[2.912867] (ros_exercises) StdoutLine: {'line': b'running build_py\n'}
+[2.915961] (ros_exercises) StdoutLine: {'line': b'copying ros_exercises/base_link_tf_pub.py -> /home/racecar/racecar_ws/src/lab1c/build/ros_exercises/build/lib/ros_exercises\n'}
+[2.920325] (ros_exercises) StdoutLine: {'line': b'running install\n'}
+[2.922732] (ros_exercises) StdoutLine: {'line': b'running install_lib\n'}
+[2.928640] (ros_exercises) StdoutLine: {'line': b'copying /home/racecar/racecar_ws/src/lab1c/build/ros_exercises/build/lib/ros_exercises/base_link_tf_pub.py -> /home/racecar/racecar_ws/src/lab1c/install/ros_exercises/lib/python3.8/site-packages/ros_exercises\n'}
+[2.937723] (ros_exercises) StdoutLine: {'line': b'byte-compiling /home/racecar/racecar_ws/src/lab1c/install/ros_exercises/lib/python3.8/site-packages/ros_exercises/base_link_tf_pub.py to base_link_tf_pub.cpython-38.pyc\n'}
+[2.948744] (ros_exercises) StdoutLine: {'line': b'running install_data\n'}
+[2.952334] (-) TimerEvent: {}
+[2.953347] (ros_exercises) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.959537] (ros_exercises) StdoutLine: {'line': b"removing '/home/racecar/racecar_ws/src/lab1c/install/ros_exercises/lib/python3.8/site-packages/ros_exercises-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[2.968862] (ros_exercises) StdoutLine: {'line': b'Copying ../build/ros_exercises/ros_exercises.egg-info to /home/racecar/racecar_ws/src/lab1c/install/ros_exercises/lib/python3.8/site-packages/ros_exercises-0.0.0-py3.8.egg-info\n'}
+[2.987228] (ros_exercises) StdoutLine: {'line': b'running install_scripts\n'}
+[3.014586] (ros_exercises) StdoutLine: {'line': b'Installing base_link_tf_pub script to /home/racecar/racecar_ws/src/lab1c/install/ros_exercises/lib/ros_exercises\n'}
+[3.017746] (ros_exercises) StdoutLine: {'line': b'Installing dynamic_tf_cam_publisher script to /home/racecar/racecar_ws/src/lab1c/install/ros_exercises/lib/ros_exercises\n'}
+[3.020608] (ros_exercises) StdoutLine: {'line': b'Installing fake_scan_publisher script to /home/racecar/racecar_ws/src/lab1c/install/ros_exercises/lib/ros_exercises\n'}
+[3.023125] (ros_exercises) StdoutLine: {'line': b'Installing open_space_publisher script to /home/racecar/racecar_ws/src/lab1c/install/ros_exercises/lib/ros_exercises\n'}
+[3.025923] (ros_exercises) StdoutLine: {'line': b'Installing simple_publisher script to /home/racecar/racecar_ws/src/lab1c/install/ros_exercises/lib/ros_exercises\n'}
+[3.033316] (ros_exercises) StdoutLine: {'line': b'Installing simple_subscriber script to /home/racecar/racecar_ws/src/lab1c/install/ros_exercises/lib/ros_exercises\n'}
+[3.036876] (ros_exercises) StdoutLine: {'line': b'Installing static_tf_cam_publisher script to /home/racecar/racecar_ws/src/lab1c/install/ros_exercises/lib/ros_exercises\n'}
+[3.045060] (ros_exercises) StdoutLine: {'line': b"writing list of installed files to '/home/racecar/racecar_ws/src/lab1c/build/ros_exercises/install.log'\n"}
+[3.053395] (-) TimerEvent: {}
+[3.156523] (-) TimerEvent: {}
+[3.209456] (ros_exercises) CommandEnded: {'returncode': 0}
+[3.257779] (-) TimerEvent: {}
+[3.359441] (-) TimerEvent: {}
+[3.427246] (ros_exercises) JobEnded: {'identifier': 'ros_exercises', 'rc': 0}
+[3.460278] (-) TimerEvent: {}
+[3.561424] (-) TimerEvent: {}
+[3.663443] (-) TimerEvent: {}
+[3.766132] (-) TimerEvent: {}
+[3.867219] (-) TimerEvent: {}
+[3.927331] (open_space_msg) JobEnded: {'identifier': 'open_space_msg', 'rc': 0}
+[3.932951] (-) EventReactorShutdown: {}

@@ -11,11 +11,13 @@ setup.py
 ../build/ros_exercises/ros_exercises.egg-info/zip-safe
 resource/ros_exercises
 ros_exercises/__init__.py
+ros_exercises/base_link_tf_pub.py
 ros_exercises/dynamic_tf_cam_publisher.py
 ros_exercises/fake_scan_publisher.py
 ros_exercises/open_space_publisher.py
 ros_exercises/simple_publisher.py
 ros_exercises/simple_subscriber.py
+ros_exercises/static_tf_cam_publisher.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py

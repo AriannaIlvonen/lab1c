@@ -1,0 +1,30 @@
+[1.727s] Invoking command in '/home/racecar/racecar_ws/src/lab1c/ros_exercises': PYTHONPATH=/home/racecar/racecar_ws/src/lab1c/ros_exercises/build/ros_exercises/prefix_override:/home/racecar/racecar_ws/src/lab1c/ros_exercises/install/ros_exercises/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/ros_exercises build --build-base /home/racecar/racecar_ws/src/lab1c/ros_exercises/build/ros_exercises/build install --record /home/racecar/racecar_ws/src/lab1c/ros_exercises/build/ros_exercises/install.log --install-scripts $base/lib/ros_exercises --single-version-externally-managed
+[2.009s] running egg_info
+[2.011s] writing build/ros_exercises/ros_exercises.egg-info/PKG-INFO
+[2.012s] writing dependency_links to build/ros_exercises/ros_exercises.egg-info/dependency_links.txt
+[2.014s] writing entry points to build/ros_exercises/ros_exercises.egg-info/entry_points.txt
+[2.015s] writing requirements to build/ros_exercises/ros_exercises.egg-info/requires.txt
+[2.016s] writing top-level names to build/ros_exercises/ros_exercises.egg-info/top_level.txt
+[2.069s] reading manifest file 'build/ros_exercises/ros_exercises.egg-info/SOURCES.txt'
+[2.072s] writing manifest file 'build/ros_exercises/ros_exercises.egg-info/SOURCES.txt'
+[2.074s] running build
+[2.075s] running build_py
+[2.076s] copying ros_exercises/base_link_tf_pub.py -> /home/racecar/racecar_ws/src/lab1c/ros_exercises/build/ros_exercises/build/lib/ros_exercises
+[2.080s] running install
+[2.081s] running install_lib
+[2.086s] copying /home/racecar/racecar_ws/src/lab1c/ros_exercises/build/ros_exercises/build/lib/ros_exercises/base_link_tf_pub.py -> /home/racecar/racecar_ws/src/lab1c/ros_exercises/install/ros_exercises/lib/python3.8/site-packages/ros_exercises
+[2.092s] byte-compiling /home/racecar/racecar_ws/src/lab1c/ros_exercises/install/ros_exercises/lib/python3.8/site-packages/ros_exercises/base_link_tf_pub.py to base_link_tf_pub.cpython-38.pyc
+[2.097s] running install_data
+[2.100s] running install_egg_info
+[2.103s] removing '/home/racecar/racecar_ws/src/lab1c/ros_exercises/install/ros_exercises/lib/python3.8/site-packages/ros_exercises-0.0.0-py3.8.egg-info' (and everything under it)
+[2.107s] Copying build/ros_exercises/ros_exercises.egg-info to /home/racecar/racecar_ws/src/lab1c/ros_exercises/install/ros_exercises/lib/python3.8/site-packages/ros_exercises-0.0.0-py3.8.egg-info
+[2.159s] running install_scripts
+[2.186s] Installing base_link_tf_pub script to /home/racecar/racecar_ws/src/lab1c/ros_exercises/install/ros_exercises/lib/ros_exercises
+[2.189s] Installing dynamic_tf_cam_publisher script to /home/racecar/racecar_ws/src/lab1c/ros_exercises/install/ros_exercises/lib/ros_exercises
+[2.190s] Installing fake_scan_publisher script to /home/racecar/racecar_ws/src/lab1c/ros_exercises/install/ros_exercises/lib/ros_exercises
+[2.192s] Installing open_space_publisher script to /home/racecar/racecar_ws/src/lab1c/ros_exercises/install/ros_exercises/lib/ros_exercises
+[2.194s] Installing simple_publisher script to /home/racecar/racecar_ws/src/lab1c/ros_exercises/install/ros_exercises/lib/ros_exercises
+[2.196s] Installing simple_subscriber script to /home/racecar/racecar_ws/src/lab1c/ros_exercises/install/ros_exercises/lib/ros_exercises
+[2.198s] Installing static_tf_cam_publisher script to /home/racecar/racecar_ws/src/lab1c/ros_exercises/install/ros_exercises/lib/ros_exercises
+[2.202s] writing list of installed files to '/home/racecar/racecar_ws/src/lab1c/ros_exercises/build/ros_exercises/install.log'
+[2.235s] Invoked command in '/home/racecar/racecar_ws/src/lab1c/ros_exercises' returned '0': PYTHONPATH=/home/racecar/racecar_ws/src/lab1c/ros_exercises/build/ros_exercises/prefix_override:/home/racecar/racecar_ws/src/lab1c/ros_exercises/install/ros_exercises/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/ros_exercises build --build-base /home/racecar/racecar_ws/src/lab1c/ros_exercises/build/ros_exercises/build install --record /home/racecar/racecar_ws/src/lab1c/ros_exercises/build/ros_exercises/install.log --install-scripts $base/lib/ros_exercises --single-version-externally-managed
