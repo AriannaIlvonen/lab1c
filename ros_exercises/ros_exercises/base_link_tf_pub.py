@@ -30,21 +30,23 @@ class BaseLinkPublisher(Node):
         #Get the current transform of the robot w.r.t. world. Use the TF tree!
         #self.get_logger().info('hello?')
         try:
-            leftcam_tf = self.tfBuffer.lookup_transform('base_link_gt', 'left_cam', self.get_clock().now())
+            leftcam_tf = self.tfBuffer.lookup_transform('left_cam', 'world', rclpy.time.Time())
+            #leftcam_tf = self.tfBuffer.lookup_transform('base_link_gt', 'world', self.get_clock().now())
         except tf2_ros.TransformException:
             #self.get_logger().info('no transform from world to left_cam found')
-            self.get_logger().info("BAD TRANSFORM")
+            self.get_logger().info("BAD TRANSFORMS")
             return
         #self.get_logger().info(leftcam_tf)
-       
-        now = self.get_clock().now()
 
-        #leftcam_wrt_world = self.tf_to_se3(leftcam_tf.transform)
-        #robot_wrt_world = leftcam_wrt_world @ self.robot_wrt_leftcam
-        #base_link_gt_2 = self.se3_to_tf(robot_wrt_world, now, parent="world", child="base_link_gt_2")
+        now = rclpy.time.Time()
+        #now = self.get_clock().now()
+
+        leftcam_wrt_world = self.tf_to_se3(leftcam_tf.transform)
+        robot_wrt_world = leftcam_wrt_world @ self.robot_wrt_leftcam
+        base_link_gt_2 = self.se3_to_tf(robot_wrt_world, now, parent="world", child="base_link_gt_2")
 
 
-        #self.br.sendTransform([base_link_gt_2])
+        self.br.sendTransform([base_link_gt_2])
         self.i += 1
 
     def tf_to_se3(self, transform):
